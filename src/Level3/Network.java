@@ -2,10 +2,14 @@ package Level3;
 
 import java.util.*;
 
+/**
+ * DFS/BFS
+ */
+
 public class Network {
     public static void main(String[] args) {
         Solution sol = new Solution();
-        
+
         int[][] computers = {{1, 1, 0}, {1, 1, 0}, {0, 0, 1}};
         sol.solution(3, computers);     //2
 
